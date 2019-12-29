@@ -1,0 +1,26 @@
+{
+    "name": "thanhlv/column-sortable",
+    "description": "A composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "levanthnh",
+            "email": "levanthanh29111999@gmail.com.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Thanhlv\\ColumnSortable\\": "src/ColumnSortable"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thanhlv\\ColumnSortable\\ColumnSortableServiceProvider"
+            ]
+        }
+    },
+}
